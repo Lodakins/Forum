@@ -25,6 +25,10 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 } 
+.arrow{
+	color: red;
+	padding-right: 5px; 
+}
 /* end reset browser styles */
 
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
@@ -110,11 +114,11 @@ a:hover{
 		Main Body
 ==================================*/
 .main-body{
-	margin-top: 20px;
+	margin-top: 40px;
 }
 .categories-ui{
 	width: 90%;
-	padding: 20px;
+	padding: 0 20px;
 	color: #fff;
 }
 .categories h2{
@@ -123,6 +127,7 @@ a:hover{
 	font-weight: 700;
 	font-family: 'Montserrat', sans-serif;
 	text-align: center;
+	text-transform: uppercase;
 }
 .categories li{
 	padding: 20px 30px;
@@ -134,35 +139,107 @@ a:hover{
 	border-radius: 5px;
 }
 .categories li a{
-
 	color: #fff;
 	font-size: 14px;
 	font-family: 'Montserrat',sans-serif;
 }
-
 .card{
 	width: 100%;
 	height: 200px;
 	border: none;
 	box-shadow: 0px 1px 9px rgba(0,0,0,.2);
 	box-sizing:border-box;
-	padding: 10px 20px;
+	margin-top: 20px;
+	padding: 15px 20px;
 }
-
 .card-title h2{
-	font-size: 24px;
+	font-size: 20px;
 	font-family:'Montserrat',sans-serif;
-	font-weight: 700;
+	font-weight: 500;
 	text-transform: uppercase;
 }
+.card-body{
+	margin: 0px;
+	padding: 0px;
+	font-size: 12px;
+}
+ .card-body .row{
+ 	margin-top: 13px;
+ }
+ .card-body img{
+ 	width: 50px;
+ 	height: 50px;
+ 	border-radius: 50%;
+ }
+ .card-body .post{
+ 	padding-top: 10px;
+ }
+.user{
+	width: 100px;
+	border-radius: 50%;
+	padding: 10px;
+	box-shadow: 0px 1px 10px rgba(0,0,0,.3);
+}
+.fas{
+	font-size: 18px;
+	color: #999;
+}
 .card-icons{
-	box-sizing: border-box;
+	padding-top: 10px;
+
 }
-.card-icons ul{
-	width: 60%;
-	margin: 0 auto;
-}
-.card-icons li {
+.card-icons li{
 	display: inline-block;
-	padding-left: 40px;
+	padding: 2px 15px;
+}
+.option p{
+	margin: 0px 10px;
+	float: right;
+	width: 90px;
+	height: 35px;
+	padding: 8px;
+	box-shadow: 0px 1px 8px rgba(0,0,0,.3);
+}
+
+.side-menu{
+	margin-top: 15px;
+}
+.question h2{
+	font-size: 20px;
+	font-weight: 500px;
+	border-bottom: 1px solid #ccc;
+	padding: 10px 10px;
+}
+.question{
+	background-color: 	#97a2b4;
+	box-shadow: 0px 1px 6px rgba(0,0,0,.4);
+	border-radius: 10px;
+}
+.question li{
+	margin: 10px 4px;
+	padding: 10px 15px;
+	font-size: 14px;
+}
+.question li a{
+	color: #fff;
+}
+.knowledge h2{
+	font-size: 20px;
+	font-weight: 500px;
+	border-bottom: 1px solid #ccc;
+	padding: 10px 10px;
+}
+.knowledge{
+	margin-top: 30px;
+	background-color: 	#97a2b4;
+	box-shadow: 0px 1px 3px rgba(0,0,0,.4);
+	border-radius: 10px;
+}
+.knowledge li{
+	margin: 10px 4px;
+	padding: 10px 15px;
+	font-size: 14px;
+}
+.knowledge li a{
+	color: #fff;
 }
